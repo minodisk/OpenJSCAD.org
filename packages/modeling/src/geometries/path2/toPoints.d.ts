@@ -1,6 +1,6 @@
-import Path2 from './type'
 import Vec2 from '../../maths/vec2/type'
+import { Geometry } from '../types'
 
 export default toPoints
 
-declare function toPoints(geometry: Path2): Array<Vec2>
+declare function toPoints(geometry: Geometry): Array<Vec2>
